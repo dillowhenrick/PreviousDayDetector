@@ -114,12 +114,12 @@ export default function Home() {
 
 				{/* Loading indicator */}
 				{isLoading && (
-					<p className="text-md animate-pulse">{agenticLoading[loadingStep]}</p>
+					<p className="text-xl animate-pulse">{agenticLoading[loadingStep]}</p>
 				)}
 
 				{/* Final result */}
 				{!isLoading && result && (
-					<p className="text-md font-semibold">{result}</p>
+					<p className="text-xl font-semibold">{result}</p>
 				)}
 
 			</main>
